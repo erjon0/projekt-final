@@ -3,71 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Emporium - Everything Store</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <header>
-        <div class="container"></div>
+        <div class="container">
             <h1>Emporium <br> Everything Store</h1>
             <nav>
-                <ul class="dropdownC" >
-                    <li><a href="#gardening.html">Gardening</a></li>
-                    <li><a href="#house-fashion.html">House Fashion</a></li>
+                <ul class="dropdownC">
+                    <li><a href="gardening.html" class="button">Gardening</a></li>
+                    <li><a href="house-fashion.html" class="button">House Fashion</a></li>
                     <li>
-                        <a href="#tech">Tech</a>
+                        <a href="tech.html" class="button">Tech</a>
                         <div class="dropdown">
-                            <a href="#laptops">Laptops</a>
-                            <a href="#phones">Phones</a>
-                            <a href="#accessories">Accessories</a>
+                            <a href="laptops.html" class="button">Laptops</a>
+                            <a href="phones.html" class="button">Phones</a>
+                            <a href="accessories.html" class="button">Accessories</a>
                         </div>
                     </li>
+                    <li><a href="cart.html" class="button">Cart</a></li>
+                    <li><a href="login.html" class="button">Log In</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+
     <section id="gardening" class="section">
         <div class="container">
             <h2>Gardening Tools</h2>
             <div class="grid">
                 <div class="card">
-                    <img src="images.jfif" alt="Gardening Tool 1">
-                    <h3>Garden Shovel</h3>
-                    <p>$25.00</p>
+                    <a href="garden-shovel.html">
+                        <img src="images.jfif" alt="Gardening Tool 1">
+                        <h3>Garden Shovel</h3>
+                        <p>$25.00</p>
+                    </a>
                 </div>
                 <div class="card">
-                    <img src="images/gardening-tool2.jpg" alt="Gardening Tool 2">
-                    <h3>Pruning Shears</h3>
-                    <p>$15.00</p>
+                    <a href="Scissors.html">
+                        <img src="https://m.media-amazon.com/images/I/51lLV2HTQmL._AC_UF894,1000_QL80_.jpg" alt="Gardening Tool 1">
+                        <h3>Scissors</h3>
+                        <p>$5.00</p>
+                    </a>
                 </div>
+                <div class="card">
+                    <a href="pruning-shears.html">
+                        <img src="https://target.scene7.com/is/image/Target/GUEST_a9018171-c056-465d-ac3b-0e2c4f922df5?wid=488&hei=488&fmt=pjpeg" alt="Gardening Tool 2">
+                        <h3>Small Spade</h3>
+                        <p>$15.00</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            </section>
+    <section id="house-fashion" class="section">
+        <div class="container">
+            <h2>House Fashion</h2>
+            <div class="grid">
+                <div class="card">
+                    <a href="modern-vase.html">
+                        <img src="https://images.urbndata.com/is/image/Anthropologie/55714349_010_b6?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=640" alt="House Fashion 1">
+                        <h3>Modern Vase</h3>
+                        <p>$40.00</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="decorative-pillow.html">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_biewoaBG6pOwrKB9vNAfSKoC0HCwd8owmQ&s" alt="House Fashion 2">
+                        <h3>Pillow Decorative</h3>
+                        <p>$20.00</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <section id="house-fashion" class="section">
-                <div class="container">
-                    <h2>House Fashion</h2>
-                    <div class="grid">
-                        <div class="card">
-                            <img src="images/house-fashion1.jpg" alt="House Fashion 1">
-                            <h3>Modern Vase</h3>
-                            <p>$40.00</p>
-                        </div>
-                        <div class="card">
-                            <img src="images/house-fashion2.jpg" alt="House Fashion 2">
-                            <br>
-                            <button class="button"> PilloDecorativew</button>
-                            
-                            <p>$20.00</p>
-                        </div>
-                        <!-- Add more house fashion items here -->
-                    </div>
+    <section id="tech" class="section">
+        <div class="container">
+            <h2>Tech</h2>
+            <div class="grid">
+                <div class="card">
+                    <a href="phones.html">
+                        <img src="https://d1rlzxa98cyc61.cloudfront.net/catalog/product/1/7/172123_2022.jpg?auto=webp&format=pjpg&width=640" alt="Phone">
+                        <h3>Smart Phone</h3>
+                        <p>$140.00</p>
+                    </a>
                 </div>
-            </section>
-        
-            <footer>
-                <div class="container">
-                    <p>&copy; 2024 Tool Store. All rights reserved.</p>
+                <div class="card">
+                    <a href="laptops.html">
+                        <img src="https://www.apple.com/newsroom/images/product/mac/standard/Apple_16-inch-MacBook-Pro_111319_big.jpg.large.jpg" alt="Laptop">
+                        <h3>Laptop</h3>
+                        <p>$800.00</p>
+                    </a>
                 </div>
-            </footer>
+                <div class="card">
+                    <a href="head-phones.html">
+                        <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone15hero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369781" alt="Head Phone">
+                        <h3>Smart Phone</h3>
+                        <p>$600.00</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tool Store. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
